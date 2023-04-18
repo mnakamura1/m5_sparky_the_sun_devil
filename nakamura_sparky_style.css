@@ -18,6 +18,13 @@ header,footer, div {
 }
 
 header, footer {
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
     font-size: 40px;
 }
 
@@ -86,11 +93,32 @@ q {
     font-style: italic;
 }
 
-.class {
-    background color: #ffc627;
+.year {
+    background-color: #ffc627;
     color: #555;
     padding: 4px;
     font-size: 20px;
     font-weight: bold;
 }
 
+footer h2 {
+    font-size: 24px;
+    margin: 8px;
+}
+
+address {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer a {
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px 8px 8px;
+    font-weight: normal;
+}
+
+footer a:hover {
+    color: #ffc627;
+}
